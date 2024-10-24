@@ -1,0 +1,29 @@
+body{
+    display: grid;
+    grid-template-columns: 20% 80%;
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar{
+    background-color: blue;
+    color: white;
+    height: 100vh;
+}
+
+.header{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    background-color: aqua;
+    height: 20%;
+}
+
+.main{
+    background-color: brown;
+    height: 100%;
+}
+
+.header > form > input{
+    height: 100px;
+    width: 750px;
+}
