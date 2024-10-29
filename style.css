@@ -31,3 +31,10 @@ body{
     font-size: 2rem;
     padding-left: 20px;
 }
+
+button{
+    border-style: none;
+    height: 60px;
+    width: 150px;
+    border-radius: 50px;
+}
