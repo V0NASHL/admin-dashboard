@@ -23,7 +23,7 @@ body{
     height: 100%;
 }
 
-.header > form > input{
+.upper-header > form > input{
     border-style: none;
     border-radius: 50px;
     height: 60px;
