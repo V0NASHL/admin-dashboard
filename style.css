@@ -15,7 +15,7 @@ body{
     display: grid;
     grid-template-rows: 1fr 1fr;
     background-color: #dbeafe;
-    height: 20%;
+    height: 275px;
     padding: 20px 100px 0px;
 }
 
