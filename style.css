@@ -1,6 +1,6 @@
 body{
     display: grid;
-    grid-template-columns: 20% 80%;
+    grid-template-columns: 15% 85%;
     margin: 0;
     padding: 0;
 }
@@ -16,6 +16,7 @@ body{
     grid-template-rows: 1fr 1fr;
     background-color: aqua;
     height: 20%;
+    padding: 20px 100px 0px;
 }
 
 .main{
@@ -23,7 +24,19 @@ body{
     height: 100%;
 }
 
-.upper-header > form > input{
+.upper-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bottom-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.searchbar > form > input{
     border-style: none;
     border-radius: 50px;
     height: 60px;
