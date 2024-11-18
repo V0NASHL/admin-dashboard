@@ -8,7 +8,7 @@ body{
 .sidebar{
     background-color: #93c5fd;
     color: white;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .header{
@@ -50,4 +50,32 @@ button{
     height: 60px;
     width: 150px;
     border-radius: 50px;
+}
+
+.content{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+.projects{
+    padding-left: 50px;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: 750px 750px;
+    gap: 45px;
+}
+
+.card{
+    display: grid;
+    grid-template-rows: 30px;
+    background-color: #e1eefa;
+    border-radius: 15px;
+    padding: 3rem;
+}
+
+.card > p{
+    font-size: 1.3em;
+    padding-right: 100px;
 }
