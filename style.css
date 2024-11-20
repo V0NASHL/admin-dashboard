@@ -83,3 +83,30 @@ button{
     font-size: 1.3em;
     padding-right: 100px;
 }
+
+.icons{
+    display: flex;
+    width: 180px;
+    height: 50px;
+    gap: 30px;
+    padding-left: 470px;
+    padding-top: 30px;
+}
+
+.icons > svg:hover{
+    fill: aquamarine;
+}
+
+.announcements{
+    background-color: white;
+    width: 450px;
+    border-radius: 15px;
+    padding: 30px;
+}
+
+.trending{
+    background-color: white;
+    width: 450px;
+    border-radius: 15px;
+    padding: 30px;
+}
