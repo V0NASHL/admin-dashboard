@@ -78,6 +78,17 @@ ul{
     justify-content: space-between;
 }
 
+.searchbar{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.searchbar > svg{
+    height: 50px;
+    width: 50px;
+}
+
 .searchbar > form > input{
     border-style: none;
     border-radius: 50px;
@@ -85,6 +96,17 @@ ul{
     width: 950px;
     font-size: 2rem;
     padding-left: 20px;
+}
+
+.name{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.name > svg{
+    height: 40px;
+    width: 40px;
 }
 
 button{
