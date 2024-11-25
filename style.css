@@ -57,7 +57,7 @@ ul{
     display: grid;
     grid-template-rows: 1fr 1fr;
     background-color: #dbeafe;
-    height: 275px;
+    height: 250px;
     padding: 20px 100px 0px;
 }
 
@@ -128,6 +128,7 @@ button{
     display: grid;
     grid-template-columns: 3fr 1fr;
     column-gap: 40px;
+    padding-top: 40px;
 }
 
 .projects{
@@ -136,16 +137,18 @@ button{
 
 .cards{
     display: grid;
-    grid-template-columns: 750px 750px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
     gap: 45px;
 }
 
 .card{
     display: grid;
-    grid-template-rows: 30px;
+    grid-template-rows: 1fr 2fr 0.5fr;
     background-color: #e1eefa;
     border-radius: 15px;
-    padding: 3rem;
+    padding: 1.5rem;
+    border-left: 15px solid rgb(162, 162, 95);
 }
 
 .card > p{
@@ -159,7 +162,6 @@ button{
     height: 50px;
     gap: 30px;
     padding-left: 470px;
-    padding-top: 30px;
 }
 
 .icons > svg:hover{
