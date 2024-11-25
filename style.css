@@ -181,6 +181,15 @@ button:hover{
     padding: 30px;
 }
 
+.news > h3{
+    margin-top: 15px;
+    margin-bottom: 0;
+}
+
+.news > p{
+    margin-top: 5px;
+}
+
 .trending{
     background-color: white;
     width: 450px;
