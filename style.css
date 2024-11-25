@@ -154,7 +154,7 @@ button:hover{
     background-color: #e1eefa;
     border-radius: 15px;
     padding: 1.5rem;
-    border-left: 15px solid rgb(162, 162, 95);
+    border-left: 15px solid #0c4a6e;
 }
 
 .card > p{
