@@ -117,12 +117,17 @@ ul{
 }
 
 button{
+    background-color: white;
     border-style: none;
     height: 60px;
     width: 150px;
     border-radius: 50px;
     font-size: 1.5em;
     font-weight: bold;
+}
+
+button:hover{
+    background-color: #93c5fd;
 }
 
 .content{
