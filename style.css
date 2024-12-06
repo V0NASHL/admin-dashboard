@@ -161,6 +161,7 @@ button:hover{
     border-radius: 15px;
     padding: 1.5rem;
     border-left: 15px solid #bed8fb;
+    box-shadow: 1px 3px 15px rgb(172, 171, 171);
 }
 
 .card > p{
@@ -185,6 +186,7 @@ button:hover{
     width: 450px;
     border-radius: 15px;
     padding: 30px;
+    box-shadow: 1px 3px 15px rgb(172, 171, 171);
 }
 
 .news > h3{
@@ -204,6 +206,7 @@ button:hover{
     width: 450px;
     border-radius: 15px;
     padding: 30px;
+    box-shadow: 1px 3px 15px rgb(172, 171, 171);
 }
 
 .user{
