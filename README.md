@@ -1,6 +1,6 @@
 # admin-dashboard
 
-This is a project for the Odin Project using advance html and css to create a admin dashboard.
+This is a project for the Odin Project using advance html and css to create an admin dashboard.
 
 SVG icons by pictogrammers.com
 
