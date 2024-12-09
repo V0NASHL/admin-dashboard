@@ -130,7 +130,7 @@ ul{
 
 .username{
     display: grid;
-    grid-template-columns: 130px 400px;
+    grid-template-columns: 140px 500px;
     align-items: center;
 }
 
@@ -161,6 +161,7 @@ button:hover{
     grid-template-columns: 3fr 1fr;
     column-gap: 40px;
     padding-top: 40px;
+    padding-bottom: 50px;
 }
 
 .projects{
